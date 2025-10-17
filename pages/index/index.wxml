@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="quote">
+    今日激励: {{quote}}
+  </view>
+
+  <form bindsubmit="submitRecord">
+    <textarea name="short_sighted_behavior" placeholder="今日短视行为" auto-height></textarea>
+    <textarea name="delayed_success" placeholder="延迟满足成功" auto-height></textarea>
+    <textarea name="long_term_action" placeholder="长期行动" auto-height></textarea>
+    <textarea name="reflection" placeholder="每日反思" auto-height></textarea>
+    <button formType="submit" class="submit-btn">提交打卡</button>
+  </form>
+
+  <button bindtap="goHistory" class="history-btn">查看历史记录</button>
+</view>

@@ -1,0 +1,13 @@
+.container {
+  padding: 10px;
+}
+
+.record-item {
+  margin-bottom: 15px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 10px 0;
+}

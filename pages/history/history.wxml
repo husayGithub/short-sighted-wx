@@ -1,0 +1,10 @@
+<view class="container">
+  <view wx:for="{{records}}" wx:key="day_index" class="record-item">
+    <view>Day {{item.day_index}} - {{item.date}}</view>
+    <view>短视行为: {{item.behavior}}</view>
+    <view>延迟满足: {{item.delayed_success}}</view>
+    <view>长期行动: {{item.long_term_action}}</view>
+    <view>反思: {{item.reflection}}</view>
+    <view class="divider"></view>
+  </view>
+</view>

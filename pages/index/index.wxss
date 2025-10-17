@@ -1,0 +1,28 @@
+.container {
+  padding: 20px;
+}
+
+.quote {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #007aff;
+}
+
+textarea {
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-btn, .history-btn {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

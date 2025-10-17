@@ -1,0 +1,22 @@
+# 微信小程序
+.DS_Store
+node_modules/
+dist/
+build/
+*.log
+
+# 微信开发者工具生成的文件
+project.private.config.json
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE配置文件
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
